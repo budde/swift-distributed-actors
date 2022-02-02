@@ -181,7 +181,7 @@ var targets: [PackageDescription.Target] = [
         dependencies: [
             "DistributedActors",
         ],
-        path: "IntegrationTests/tests_04_cluster/it_Clustered_swim_ungraceful_shutdown"
+        path: "IntegrationTests/tests_01_cluster/it_Clustered_swim_ungraceful_shutdown"
     ),
 
     // ==== ----------------------------------------------------------------------------------------------------------------

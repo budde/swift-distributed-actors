@@ -176,7 +176,7 @@ var targets: [PackageDescription.Target] = [
         ],
         path: "IntegrationTests/tests_01_cluster/it_Clustered_swim_suspension_reachability"
     ),
-    .target(
+    .executableTarget(
         name: "it_Clustered_swim_ungraceful_shutdown",
         dependencies: [
             "DistributedActors",
